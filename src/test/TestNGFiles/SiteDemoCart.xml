@@ -1,0 +1,17 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+
+<suite  name="Happy Path Suite">
+    <test name="Path DemoCart">
+        <groups>
+            <run>
+                <include name="sanity" />
+            </run>
+        </groups>
+        <classes>
+            <class name="tests.NewUserRegister"></class>
+            <class name="tests.AddItemCart"></class>
+            <class name="tests.VerifyProductDetail"></class>
+        </classes>
+
+    </test>
+</suite>

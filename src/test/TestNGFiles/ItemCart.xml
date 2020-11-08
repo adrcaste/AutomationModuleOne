@@ -1,0 +1,15 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+
+<suite  name="Items in the cart  Suite">
+    <test name="Add Items in the cart ">
+        <groups>
+            <run>
+                <include name="sanity" />
+            </run>
+        </groups>
+        <classes>
+            <class name="tests.AddItemCart"></class>
+        </classes>
+
+    </test>
+</suite>

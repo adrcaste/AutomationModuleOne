@@ -1,0 +1,19 @@
+{
+  "dataset": [
+    {
+      "firstName" : "Josue",
+      "lastName" : "Castelblanco",
+      "telephone" : "4567890",
+      "password" : "123456",
+      "confirmPassword" : "123456"
+    },
+    {
+      "firstName" : "Adriana",
+      "lastName" : "Castelblanco",
+      "telephone" : "3124132766",
+      "password" : "IloveAutomation",
+      "confirmPassword" : "IloveAutomation"
+    }
+  ]
+}
+
